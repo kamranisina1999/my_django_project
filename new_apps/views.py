@@ -3,7 +3,7 @@ from django.shortcuts import render
 
 
 def index(request):
-    return HttpResponse('hello world')
+    return HttpResponse('<h1>hello world</h>')
 
 
 def main_page(request):
